@@ -4,6 +4,28 @@ Check_Point.Mgmt Release Notes
 
 .. contents:: Topics
 
+v6.9.0
+======
+
+Release Summary
+---------------
+
+This is release 6.9.0 of ``check_point.mgmt``, released on 2026-03-16.
+
+Minor Changes
+-------------
+
+- added new parameter 'enable_https_inspection' to 'cp_mgmt_simple_cluster' and 'cp_mgmt_simple_gateway' modules.
+- added new parameters 'advanced_dns_settings', 'scan_malicious_links', 'threat_extraction' and 'zero_phishing' to 'cp_mgmt_threat_profile' module.
+
+New Modules
+-----------
+
+- check_point.mgmt.cp_mgmt_add_data_center_query - Adds data-center-query object on Checkpoint over Web Services API
+- check_point.mgmt.cp_mgmt_set_data_center_query - Edits data-center-query object on Checkpoint over Web Services API
+- check_point.mgmt.cp_mgmt_delete_data_center_query - Deletes data-center-query object on Checkpoint over Web Services API
+- check_point.mgmt.cp_mgmt_data_center_query_facts - Get data-center-query objects facts on Checkpoint over Web Services API
+
 v6.8.0
 ======
 
