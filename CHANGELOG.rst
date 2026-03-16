@@ -25,6 +25,7 @@ New Modules
 - check_point.mgmt.cp_mgmt_set_data_center_query - Edits data-center-query object on Checkpoint over Web Services API
 - check_point.mgmt.cp_mgmt_delete_data_center_query - Deletes data-center-query object on Checkpoint over Web Services API
 - check_point.mgmt.cp_mgmt_data_center_query_facts - Get data-center-query objects facts on Checkpoint over Web Services API
+- check_point.mgmt.cp_mgmt_export_access_rulebase - Export access rulebase on Checkpoint over Web Services API
 
 v6.8.0
 ======
